@@ -63,7 +63,7 @@ userNameInput.addEventListener('focus', function () {
   FlagFocuseNameInput = true;
 });
 
-userNameInput.addEventListener('blure', function () {
+userNameInput.addEventListener('blur', function () {
   FlagFocuseNameInput = false;
 });
 
